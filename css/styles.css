@@ -30,5 +30,10 @@ a {
     display: inline-block;
     position: relative;
  
-    
+ }
+
+ .navButton:hover {
+     background-color: rgb(11, 171, 207);
+     
+     
  }
