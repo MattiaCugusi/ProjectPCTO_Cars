@@ -1,8 +1,10 @@
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 .menu {
     font-size: 20px;
-    
+    min-height: 110px;
+    text-align: center;
 }
 
 .nomeAzienda {
@@ -37,3 +39,77 @@ a {
      
      
  }
+
+ body{
+    background-color: rgb(222, 222, 222);
+}
+
+.contenitore{
+    width: 85%;
+}
+
+.presentazione{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.div_immagine{
+    flex: 5;
+    text-align: center;
+
+}
+
+.immagine_presentazione{
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 370px;
+}
+
+.chi_siamo{
+    flex: 2;
+}
+
+.chi_siamo h1{
+    text-align: center;
+}
+
+
+/* Tablet View */
+@media (max-width: 768px){
+
+    nav {
+         width: 100%;
+         
+    }
+
+    .navButton {
+       width: 100%;
+    }
+
+    .contenitore {
+        width: 100%;
+    }
+
+    .div_immagine {
+        width: 100%;
+        display: none;
+    }
+
+    .presentazione {
+       border-radius: 0px;
+       width: 100%;
+    }
+
+   
+   
+
+}
+
+
+/* Mobile View */
+
+@media (max-width: 400px){
+}
