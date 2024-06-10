@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px 30px;
 }
 
@@ -31,4 +31,51 @@ body{
 
 .chi_siamo h1{
     text-align: center;
+}
+
+.cards{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card{
+    width: 32%;
+    border-radius: 20px;
+    min-height: 300px;
+    text-align: center;
+    padding: 30px;
+}
+
+.div_immagine_logo_bmw{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div_immagine_logo_fiat{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div_immagine_logo_audi{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards .descrizione{
+    margin-bottom: 0px;
+}
+
+.immagine_logo_bmw{
+    height: 100px;
+    width: 100px;
+}
+
+.immagine_logo_fiat{
+    height: 100px;
+}
+
+.immagine_logo_audi{
+    height: 100px;
 }
