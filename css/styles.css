@@ -50,7 +50,7 @@ body{
 .card{
     border-radius: 20px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .cards_marche .card{
@@ -59,7 +59,7 @@ body{
 }
 
 .cards_recensioni .card{
-    width: 18.5%;
+    width: 23.5%;
     min-height: 100px;
 }
 
@@ -93,4 +93,40 @@ body{
 
 .immagine_logo_audi{
     height: 100px;
+}
+
+.user_bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.data_commento{
+    color: rgb(63, 63, 63);
+    font-size: 12px;
+}
+
+.user_bar div p{
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.immagine_utente{
+    height: 55px;
+    width: 55px;
+}
+
+.testo_user{
+    text-align: start;
+}
+
+.corpo_commento{
+    text-align: start;
+    color: rgb(97, 97, 97);
+    line-height: 1.1rem;
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
 }
