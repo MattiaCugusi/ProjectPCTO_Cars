@@ -19,6 +19,9 @@
     margin-right: auto;
 }
 
+
+
+
 a {
     color:black;
     text-decoration: none;
@@ -31,12 +34,13 @@ a {
     font-family: "Playfair Display", serif;
     display: inline-block;
     position: relative;
+    transition-duration: 0.5s;
  
  }
 
  .navButton:hover {
      background-color: rgb(11, 171, 207);
-     
+     transition-duration: 0.5s;
      
  }
 
@@ -45,7 +49,7 @@ a {
 }
 
 .contenitore{
-    width: 85%;
+    width: 90%;
 }
 
 .presentazione{
@@ -78,8 +82,12 @@ a {
 }
 
 
-/* Tablet View */
-@media (max-width: 768px){
+
+@media (max-width: 1024px){
+
+    .titolo {
+        margin: auto;
+    }
 
     nav {
          width: 100%;
@@ -104,10 +112,12 @@ a {
        width: 100%;
     }
 
+}
+
    
    
 
-}
+
 
 
 /* Mobile View */
