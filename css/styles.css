@@ -218,6 +218,23 @@ footer {
        width: 100%;
     }
 
+    .cards_marche {
+        display: block;
+    }
+
+    .cards_marche .card {
+        width: 100%;
+        min-height: 100px;
+        
+    }
+
+    .brand {
+        border-right: solid 1px rgb(204, 196, 196);
+    }
+
+
+
+
 }
 
    
