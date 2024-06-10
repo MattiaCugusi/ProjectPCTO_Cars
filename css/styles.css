@@ -143,6 +143,7 @@ a {
 }
 
 .immagine_logo_audi{
+    width: 60%;
     height: 100px;
 }
 
@@ -189,6 +190,10 @@ footer {
 
 }
 
+.carosello {
+    display: none;
+}
+
 
 @media (max-width: 1024px){
 
@@ -218,6 +223,36 @@ footer {
        border-radius: 0px;
        width: 100%;
     }
+
+    .cards_marche {
+        display: block;
+    }
+
+    .cards_marche .card {
+        width: 100%;
+        min-height: 100px;
+        
+    }
+
+    .brand {
+        border-right: solid 1px rgb(204, 196, 196);
+    }
+
+    .cards_recensioni {
+        display: none;
+    }
+
+    .carosello {
+        display: block;
+        height: 200px;
+        margin: 20px;
+        
+    }
+
+    h1 {
+        text-align: center;
+    }
+
 
 }
 
