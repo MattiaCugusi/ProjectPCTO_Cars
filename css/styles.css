@@ -33,19 +33,34 @@ body{
     text-align: center;
 }
 
-.cards{
+.cards_marche{
     min-height: 200px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
+.cards_recensioni{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 .card{
-    width: 32%;
     border-radius: 20px;
-    min-height: 300px;
     text-align: center;
     padding: 30px;
+}
+
+.cards_marche .card{
+    width: 32%;
+    min-height: 300px;
+}
+
+.cards_recensioni .card{
+    width: 18.5%;
+    min-height: 100px;
 }
 
 .div_immagine_logo_bmw{
