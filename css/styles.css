@@ -5,6 +5,7 @@
     font-size: 20px;
     min-height: 110px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .nomeAzienda {
@@ -56,7 +57,7 @@ a {
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px 30px;
     text-align: justify;
 }
@@ -80,6 +81,104 @@ a {
 
 .chi_siamo h1{
     text-align: center;
+}
+
+.cards_marche{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cards_recensioni{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card{
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.cards_marche .card{
+    width: 32%;
+    min-height: 300px;
+}
+
+.cards_recensioni .card{
+    width: 23.5%;
+    min-height: 100px;
+}
+
+.div_immagine_logo_bmw{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div_immagine_logo_fiat{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div_immagine_logo_audi{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards .descrizione{
+    margin-bottom: 0px;
+}
+
+.immagine_logo_bmw{
+    height: 100px;
+    width: 100px;
+}
+
+.immagine_logo_fiat{
+    height: 100px;
+}
+
+.immagine_logo_audi{
+    height: 100px;
+}
+
+.user_bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.data_commento{
+    color: rgb(63, 63, 63);
+    font-size: 12px;
+}
+
+.user_bar div p{
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.immagine_utente{
+    height: 55px;
+    width: 55px;
+}
+
+.testo_user{
+    text-align: start;
+}
+
+.corpo_commento{
+    text-align: start;
+    color: rgb(97, 97, 97);
+    line-height: 1.1rem;
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
 }
 
 footer {
