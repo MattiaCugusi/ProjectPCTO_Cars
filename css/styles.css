@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(222, 222, 222);
+}
+
+.container{
+    width: 70%;
+}
+
+.presentazione{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.div_immagine{
+    flex: 5;
+    text-align: center;
+}
+
+.immagine_presentazione{
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 370px;
+}
+
+.chi_siamo{
+    flex: 2;
+}
+
+.chi_siamo h1{
+    text-align: center;
+}
