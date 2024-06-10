@@ -12,7 +12,7 @@
     font-family: "DM Serif Text", serif;
 }
 
-.container {
+.contenitore {
     width: 1024px;
     min-height: 300px; 
     margin-left: auto;
@@ -57,6 +57,7 @@ a {
 }
 
 .div_immagine{
+
     flex: 5;
     text-align: center;
 
