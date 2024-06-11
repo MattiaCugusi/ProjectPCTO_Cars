@@ -21,9 +21,6 @@
     margin-right: auto;
 }
 
-
-
-
 a {
     color:black;
     text-decoration: none;
@@ -255,7 +252,7 @@ footer {
 
 
 }
-
+  
    
    
 
@@ -265,4 +262,248 @@ footer {
 /* Mobile View */
 
 @media (max-width: 400px){
+}
+
+
+/* stile pagina BMW*/
+
+
+
+body{
+    background-color: rgb(222, 222, 222);
+    padding: 0;
+    margin: 0;
+}
+
+.titolo a{
+    font-family: "DM Serif Text", serif;
+}
+
+.titolo_presentazione_BMW h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+
+
+.container_BMW{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sezione_presentazione_BMW{
+    background-image: url(../images/BMW/sfondo_presentazione_bmw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: content-box;
+    height: 300px;
+    padding: 250px 30px 0px 30px;
+}
+
+.presentazione_BMW{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5),white, white);
+    border-radius: 20px 20px 0 0;
+    padding: 30px;
+    min-height: 300px;
+}
+
+.presentazione_BMW p{
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+p{
+    color: rgb(45, 45, 45);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titolo_presentazione_BMW{
+    display: flex;
+    justify-content: space-between;
+}
+
+.immagine_BMW{
+    height: 100px;
+    width: 100px;
+}
+
+.modelli_BMW{
+    background-color: white;
+    min-height: 100px;
+}
+
+.cards_BMW{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_BMW{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+    min-height: 100px;
+    background-color: rgb(208, 208, 208);
+    width: 49%;
+    border-radius: 20px;
+    border: 2px solid rgb(208, 208, 208);
+}
+
+.immagine_modello_BMW{
+    height: 300px;
+}
+
+.card_BMW .contenitore_testo_card_modelli_BMW p{
+    margin: 0;
+}
+
+.div_immagine_modello_BMW{
+    width: 100%;
+    text-align: center;
+}
+
+.contenitore_testo_card_modelli_BMW{
+    padding: 20px;
+    background-color: white;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+footer {
+    border: solid 1px rgba(0, 0, 0, 0.301);
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.titolo_visualizza_modelli_BMW{
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+
+
+
+/*  stile pagina FIAT   */
+
+
+body{
+    background-color: rgb(222, 222, 222);
+    padding: 0;
+    margin: 0;
+}
+
+
+.container_FIAT{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sezione_presentazione_FIAT{
+    background-image: url(../images/FIAT/sfondo_presentazione_FIAT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    background-position: center;
+    height: 300px;
+    padding: 250px 30px 0px 30px;
+}
+
+.titolo_presentazione_FIAT h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.presentazione_FIAT{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5),white, white);
+    border-radius: 20px 20px 0 0;
+    padding: 30px;
+    min-height: 300px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+p{
+    color: rgb(45, 45, 45);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titolo_presentazione_FIAT{
+    display: flex;
+    justify-content: space-between;
+}
+
+.immagine_FIAT{
+    height: 100px;
+    width: 100px;
+}
+
+.modelli_FIAT{
+    background-color: white;
+    min-height: 100px;
+}
+
+.cards_FIAT{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_FIAT{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+    min-height: 100px;
+    background-color: rgb(208, 208, 208);
+    width: 49%;
+    border-radius: 20px;
+    border: 2px solid rgb(208, 208, 208);
+}
+
+.immagine_modello_FIAT{
+    height: 300px;
+}
+
+.card_FIAT .contenitore_testo_card_modelli_FIAT p{
+    margin: 0;
+}
+
+.div_immagine_modello_FIAT{
+    width: 100%;
+    text-align: center;
+}
+
+.contenitore_testo_card_modelli_FIAT{
+    padding: 20px;
+    background-color: white;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+footer {
+    border: solid 1px rgba(0, 0, 0, 0.301);
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.titolo_visualizza_modelli_FIAT{
+    padding-top: 100px;
+    margin-left: 70px;
 }
