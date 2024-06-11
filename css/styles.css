@@ -274,6 +274,36 @@ footer {
     height: 380px;
  }
 
- @media (max-width: 1024px){
+ .visualizzazione {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+ }
+ .mappa {
+    width: 50%;
+ }
+
+ .località {
+    width: 50%;
+    margin-left: 20px;
+    text-align: center;
+   
+   
+ }
+ 
+ .sedi {
+    text-align: center;
+ }
+
+ @media (max-width: 678px){
+    .mappa {
+        display: none;
+    }
+ 
+    .località {
+        width: 100%;
+        
+    }
 
  }
