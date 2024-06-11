@@ -1,88 +1,131 @@
 <!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/BMW.css">
-    <title>BMW</title>
-  </head>
-  <body>
-    <div class="container">
-        <div class="sezione_presentazione">
-            <div class="presentazione_BMW">
-                <div class="titolo_presentazione">
-                    <h1>BMW</h1>
-                    <img class="immagine_bmw" src="../images/logo_bmw.png" alt="logo BMW">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>BMW</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+        <nav class="navbar bg-body-tertiary menu">
+            <div class="container-fluid divPadre">
+                <div class="titolo">
+                    <img src="../images/logo.png" class="logo" height="120px">
+                    <a class="nomeAzienda" href="../index.html">EleganzaMotori</a>
                 </div>
-                <p><b>BMW</b> è un marchio di automobili di lusso tedesco noto per la produzione di veicoli che combinano prestazioni, stile e innovazione tecnologica. Le auto BMW sono apprezzate per la loro maneggevolezza sportiva, l'eleganza del design e la qualità della costruzione. Che si tratti di una berlina, un SUV o un'auto sportiva, ogni BMW offre un'esperienza di guida eccezionale. Con un impegno costante verso l'innovazione e la sostenibilità, BMW continua a ridefinire i limiti del possibile nel mondo dell'automobile.</p>
+                <nav>
+                    <div class="navButton">
+                        <a href="#">Visualizza Sedi</a>
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+
+                    <div class="navButton">
+                        <a href="./pages/contact-us.html">Contatti</a>
+                        <i class="bi bi-telephone"></i>
+                    </div>
+                </nav>
             </div>
+        </nav>
+
+
+        <div class="container_BMW">
+            <div class="sezione_presentazione_BMW">
+                <div class="presentazione_BMW">
+                    <div class="titolo_presentazione_BMW">
+                        <h1>BMW</h1>
+                        <img class="immagine_BMW" src="../images/logo_bmw.png" alt="logo BMW">
+                    </div>
+                    <p><b>BMW</b> è un marchio di automobili di lusso tedesco noto per la produzione di veicoli che
+                        combinano prestazioni, stile e innovazione tecnologica. Le auto BMW sono apprezzate per la loro
+                        maneggevolezza sportiva, l'eleganza del design e la qualità della costruzione. 
+                        <br>
+                        Che si tratti di una berlina, un SUV o un'auto sportiva, ogni BMW offre un'esperienza di guida eccezionale. Con un
+                        impegno costante verso l'innovazione e la sostenibilità, BMW continua a ridefinire i limiti del
+                        possibile nel mondo dell'automobile.</p>
+                </div>
+            </div>
+            <div class="modelli_BMW">
+                <h1 class="titolo_visualizza_modelli_BMW">Visualizza i vari modelli BMW</h1>
+                <div class="cards_BMW">
+                    <div class="card_BMW">
+                        <div class="div_immagine_modello_BMW">
+                            <img class="immagine_modello_BMW" src="../images/BMW/BMW 240i xDrive Coupé.png"
+                                alt="BMW 240i xDrive Coupé">
+                        </div>
+                        <div class="contenitore_testo_card_modelli_BMW">
+                            <p>BMW 240i xDrive Coupé</p>
+                        </div>
+                    </div>
+
+                    <div class="card_BMW">
+                        <div class="div_immagine_modello_BMW">
+                            <img class="immagine_modello_BMW" src="../images/BMW/BMW 420i.png" alt="BMW 420i">
+                        </div>
+                        <div class="contenitore_testo_card_modelli_BMW">
+                            <p>BMW 420i</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards_BMW">
+                    <div class="card_BMW">
+                        <div class="div_immagine_modello_BMW">
+                            <img class="immagine_modello_BMW" src="../images/BMW/BMW 520d Touring.png" alt="BMW 520d Touring">
+                        </div>
+                        <div class="contenitore_testo_card_modelli_BMW">
+                            <p>BMW 520d Touring</p>
+                        </div>
+                    </div>
+
+                    <div class="card_BMW">
+                        <div class="div_immagine_modello_BMW">
+                            <img class="immagine_modello_BMW" src="../images/BMW/BMW M8 Coupé.png" alt="BMW M8 Coupé">
+                        </div>
+                        <div class="contenitore_testo_card_modelli_BMW">
+                            <p>BMW M8 Coupé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="../images/logo.png" height="90px">
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-3">
+                        <p>I nostri social</p>
+                        <a href="#"><i class="bi bi-instagram fs-3"></i></a>
+                        <a href="#"><i class="bi bi-facebook fs-3"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x fs-3"></i></a>
+
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-3">
+                        <p>Contatti</p>
+                        <p><i class="bi bi-phone fs-5"></i> +39 123 456 78 90</p>
+                        <p><i class="bi bi-telephone fs-5"></i> +055 345 6789</p>
+                        <p><i class="bi bi-envelope fs-5"></i> eleganza.motori@gmail.com</p>
+                    </div>
+
+                </div>
+            </footer>
+
         </div>
-        <div class="modelli">
-            <h1 class="titolo_visualizza_modelli">Visualizza i vari modelli BMW</h1>
-            <div class="cards">
-                <div class="card">
-                    <div class="div_immagine_modello">
-                        <img class="immagine_modello" src="../images/BMW/BMW 240i xDrive Coupé.png" alt="BMW 240i xDrive Coupé">
-                    </div>
-                    <div class="contenitore_testo_card_modelli">
-                        <p>BMW 240i xDrive Coupé</p>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <div class="div_immagine_modello">
-                        <img class="immagine_modello" src="../images/BMW/BMW 420i.png" alt="BMW 420i">
-                    </div>
-                    <div class="contenitore_testo_card_modelli">
-                        <p>BMW 420i</p>
-                    </div>
-                </div>
-            </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    </body>
 
-            <div class="cards">
-                <div class="card">
-                    <div class="div_immagine_modello">
-                        <img class="immagine_modello" src="../images/BMW/BMW 520d Touring.png" alt="BMW 520d Touring">
-                    </div>
-                    <div class="contenitore_testo_card_modelli">
-                        <p>BMW 520d Touring</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="div_immagine_modello">
-                        <img class="immagine_modello" src="../images/BMW/BMW M8 Coupé.png" alt="BMW M8 Coupé">
-                    </div>
-                    <div class="contenitore_testo_card_modelli">
-                        <p>BMW M8 Coupé</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                     <img src="../images/logo.png" height="90px">
-                    </div>
-                
-                <div class="col-12 col-md-4 mt-3">
-                    <p>I nostri social</p>
-                    <a href="#"><i class="bi bi-instagram fs-3"></i></a>
-                    <a href="#"><i class="bi bi-facebook fs-3"></i></a>
-                    <a href="#"><i class="bi bi-twitter-x fs-3"></i></a>
-        
-                </div>
-        
-                <div class="col-12 col-md-4 mt-3">
-                    <p>Contatti</p>
-                    <p><i class="bi bi-phone fs-5"></i> +39 123 456 78 90</p>
-                    <p><i class="bi bi-telephone fs-5"></i> +055 345 6789</p>
-                    <p><i class="bi bi-envelope fs-5"></i> eleganza.motori@gmail.com</p>
-                </div>
-                
-            </div>
-        </footer>
-    </div>
-  </body>
 </html>
