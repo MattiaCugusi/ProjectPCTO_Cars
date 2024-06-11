@@ -449,6 +449,10 @@ p{
     justify-content: space-between;
 }
 
+.presentazione_FIAT p{
+    margin-top: 20px;
+}
+
 .immagine_FIAT{
     height: 100px;
     width: 100px;
@@ -504,6 +508,126 @@ footer {
 
 
 .titolo_visualizza_modelli_FIAT{
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+
+
+
+/*    stile pagina AUDI    */
+
+
+body{
+    background-color: rgb(222, 222, 222);
+    padding: 0;
+    margin: 0;
+}
+
+
+.container_AUDI{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sezione_presentazione_AUDI{
+    background-image: url(../images/AUDI/sfondo_presentazione_audi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    background-position: center;
+    height: 300px;
+    padding: 250px 30px 0px 30px;
+}
+
+.titolo_presentazione_AUDI h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.presentazione_AUDI{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5),white, white);
+    border-radius: 20px 20px 0 0;
+    padding: 30px;
+    min-height: 300px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+p{
+    color: rgb(45, 45, 45);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titolo_presentazione_AUDI{
+    display: flex;
+    justify-content: space-between;
+}
+
+.immagine_AUDI{
+    height: 100px;
+}
+
+.modelli_AUDI{
+    background-color: white;
+    min-height: 100px;
+}
+
+.cards_AUDI{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_AUDI{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+    min-height: 100px;
+    background-color: rgb(208, 208, 208);
+    width: 49%;
+    border-radius: 20px;
+    border: 2px solid rgb(208, 208, 208);
+}
+
+.immagine_modello_AUDI{
+    height: 300px;
+}
+
+.card_AUDI .contenitore_testo_card_modelli_AUDI p{
+    margin: 0;
+}
+
+.div_immagine_modello_AUDI{
+    width: 100%;
+    text-align: center;
+}
+
+.contenitore_testo_card_modelli_AUDI{
+    padding: 20px;
+    background-color: white;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+footer {
+    border: solid 1px rgba(0, 0, 0, 0.301);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.presentazione_AUDI p{
+    margin-top: 20px;
+}
+
+.titolo_visualizza_modelli_AUDI{
     padding-top: 100px;
     margin-left: 70px;
 }
