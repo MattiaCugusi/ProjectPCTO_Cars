@@ -51,18 +51,21 @@ a {
     width: 90%;
 }
 
+p {
+    line-height: 1.5rem;
+    color: rgb(98, 0, 0);
+}
+
 .presentazione{
     display: flex;
     align-items: center;
     background-color: white;
     border-radius: 20px;
-    padding: 20px 30px;
+    padding: 20px;
     text-align: justify;
 }
 
 .div_immagine{
-
-    flex: 5;
     text-align: center;
 
 }
@@ -74,7 +77,8 @@ a {
 }
 
 .chi_siamo{
-    flex: 2;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 .chi_siamo h1{
@@ -95,6 +99,10 @@ a {
     margin-top: 20px;
 }
 
+.row .col-6{
+    border: none;
+}
+
 .card{
     border-radius: 20px;
     text-align: center;
@@ -104,11 +112,17 @@ a {
 .cards_marche .card{
     width: 32%;
     min-height: 300px;
+    margin-top: 20px;
 }
 
 .cards_recensioni .card{
     width: 23.5%;
     min-height: 100px;
+}
+
+.cards_marche .row p{
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .div_immagine_logo_bmw{
@@ -150,19 +164,14 @@ a {
     margin-bottom: 10px;
 }
 
-.data_commento{
-    color: rgb(63, 63, 63);
-    font-size: 12px;
-}
-
 .user_bar div p{
     margin-bottom: 0;
     margin-left: 5px;
 }
 
 .immagine_utente{
-    height: 55px;
-    width: 55px;
+    height: 60px;
+    width: 60px;
 }
 
 .testo_user{
@@ -184,11 +193,50 @@ footer {
     border: solid 1px rgba(0, 0, 0, 0.301);
     margin-top: 50px;
     text-align: center;
-
+    
 }
+
+
 
 .carosello {
     display: none;
+}
+
+.cards_recensioni p{
+    font-size: 1rem;
+}
+
+.testo_user p{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.cards_marche p{
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.testo_user i{
+    margin-right: -4px;
+    padding: 0;
+}
+
+.presentazione .chi_siamo p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+p.data_commento{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgb(64, 64, 64);
+}
+
+@media (max-width: 1200px){
+    .testo_user i{
+        display: none;
+    }
 }
 
 
@@ -354,15 +402,16 @@ body{
 
 h1{
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: normal;
     padding-top: 30px;
     margin-top: 0;
 }
 
 p{
     color: rgb(45, 45, 45);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .titolo_presentazione_BMW{
@@ -479,8 +528,7 @@ h1{
 
 p{
     color: rgb(45, 45, 45);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .titolo_presentazione_FIAT{
@@ -601,8 +649,7 @@ h1{
 
 p{
     color: rgb(45, 45, 45);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .titolo_presentazione_AUDI{
@@ -669,4 +716,12 @@ footer {
 .titolo_visualizza_modelli_AUDI{
     padding-top: 100px;
     margin-left: 70px;
+}
+
+footer .row{
+    width: 100%;
+}
+
+footer .row:first-child{
+    padding-left: 12px;
 }
