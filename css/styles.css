@@ -521,6 +521,10 @@ body{
     min-height: 300px;
 }
 
+.presentazioneMacchineDisponibili p {
+    margin-top: 30px;
+}
+
 
 
 p{
