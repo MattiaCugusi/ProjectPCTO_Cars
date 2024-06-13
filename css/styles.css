@@ -104,9 +104,6 @@ footer .row {
     margin-top: 20px;
 }
 
-.row .col-6{
-    border: none;
-}
 
 .card{
     border-radius: 20px;
@@ -148,6 +145,15 @@ footer .row {
 .cards .descrizione{
     margin-bottom: 0px;
 }
+
+.descrizione, .chi_siamo{
+    font-family: var(--typography-order1-fontFamily-51e5da7);
+}
+
+.titoloMarca {
+    font-weight: 700;
+}
+
 
 .immagine_logo_bmw{
     height: 100px;
@@ -202,6 +208,10 @@ footer {
 }
 
 
+.brand {
+    border-bottom: solid 1px rgb(204, 196, 196);
+    margin-bottom: 10px;
+}
 
 .carosello {
     display: none;
@@ -284,9 +294,6 @@ p.data_commento{
         
     }
 
-    .brand {
-        border-right: solid 1px rgb(204, 196, 196);
-    }
 
     .modelliInVendita {
         display: block;
@@ -365,6 +372,13 @@ p.data_commento{
         height: auto;
     }
 
+    
+    .brand {
+        border-right: solid 1px rgb(204, 196, 196);
+        border-bottom: 0px;
+        margin-bottom: 0;
+    }
+
 
  }
 
@@ -380,9 +394,15 @@ p.data_commento{
 
 
 
-/* Mobile View */
 
-@media (max-width: 400px){
+@media (max-width: 768px){
+
+    .brand {
+        border-right: solid 1px rgb(204, 196, 196);
+        border-bottom: 0px;
+        margin-bottom: 0;
+    }
+
 
 }
 
