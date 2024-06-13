@@ -64,6 +64,15 @@ a {
 
 }
 
+.presentazione {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
 .immagine_presentazione{
     margin-right: 20px;
     border-radius: 20px;
@@ -298,7 +307,8 @@ footer {
     }
 
     .immagine_modello {
-        transform: scale(0.75);
+        width: 100%;
+        height: auto;
     }
 
 
@@ -306,9 +316,6 @@ footer {
 
    
  @media (max-width: 560px){
-    .immagine_modello {
-        transform: scale(0.5);
-    }
 
     .div_immagine_modello_Autovettura {
         width: 100%;
@@ -417,7 +424,6 @@ p{
 
 
 .immagine_modello{
-    height: 300px;
     text-align: center;
 
 }
