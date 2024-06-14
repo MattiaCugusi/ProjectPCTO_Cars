@@ -254,6 +254,15 @@ p.data_commento{
     }
 }
 
+@media (max-width:1124px){
+    
+    .div_immagine {
+        width: 100%;
+        display: none;
+    }
+}
+
+
 
 @media (max-width: 1024px){
 
@@ -344,22 +353,15 @@ p.data_commento{
 }
   
 
-@media (max-width:1124px){
-    
-    .div_immagine {
-        width: 100%;
-        display: none;
-    }
-}
 
 @media (max-width: 678px){
     .mappa {
         display: none;
     }
  
-    .località {
+    .visualizzazione .località {
         width: 100%;
-        
+        text-align: center;
     }
 
     .immagine_modello {
