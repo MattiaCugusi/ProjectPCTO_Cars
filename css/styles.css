@@ -274,11 +274,6 @@ p.data_commento{
         width: 100%;
     }
 
-    .div_immagine {
-        width: 100%;
-        display: none;
-    }
-
     .presentazione {
        border-radius: 0px;
        width: 100%;
@@ -346,16 +341,16 @@ p.data_commento{
    
 }
 
-  
-    
-
-    
-
- 
-
-
 }
   
+
+@media (max-width:1124px){
+    
+    .div_immagine {
+        width: 100%;
+        display: none;
+    }
+}
 
 @media (max-width: 678px){
     .mappa {
@@ -515,7 +510,7 @@ footer {
 
 
 body{
-    background-color: rgb(222, 222, 222);
+   background-color: rgb(222, 222, 222); 
     padding: 0;
     margin: 0;
 }
